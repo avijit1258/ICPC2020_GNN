@@ -22,6 +22,8 @@ To train a new model run train.py with the modeltype and gpu options set.
 
 `python3 train.py --gpu 0 --modeltype codegnnbilstm --data ./mydata`
 
+Use example: `python3 predict.py /home/avb307/projects/ICPC2020_GNN/final_data/codegnnbilstm.h5 --gpu 0 --modeltype codegnnbilstm --data /home/avb307/projects/ICPC2020_GNN/final_data`
+
 ## Cite this work
 ```
 @inproceedings{
